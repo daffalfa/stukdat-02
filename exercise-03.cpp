@@ -14,7 +14,7 @@ struct Pegawai{
  int gaji;
 };
 
-Pegawai PPegawai[20];
+typedef Pegawai PPegawai[20];
 
 void banyakData(int &n){
  cout<<"Masukkan jumlah pegawai : ";
